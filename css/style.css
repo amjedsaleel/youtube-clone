@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 10px;
+}
+
+.header i {
+    cursor: pointer;
+    /* padding: 0px 7px; */
+}
+
+.header .left  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .left .logo i {
+    /* width: 40px; */
+    color: red;
+    font-size: 30px;
+}
+
+.center form{
+    border: 1px solid #cccccc;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.center form input {
+    width: 566px;   
+    border-radius: 0;
+    border: none;
+    padding: 5px;
+}
+
+.center form button {
+    border: none;
+    height: 100%;
+}
+
+.header .right i {
+    margin-right: 20px;
+    color: gray;
+}
