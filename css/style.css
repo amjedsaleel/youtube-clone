@@ -88,7 +88,11 @@
 .sidebar-items .sidebar-item {
     display: flex;
     align-items: center;
-    padding: 12px 25px;
+    padding: 5px 5px;
+}
+
+.sidebar-items .subscriptions {
+    padding-left: 20px;
 }
 
 .sidebar-item span {
@@ -106,6 +110,14 @@
     border: none;
 }
 
+.sidebar .sidebar-item img {
+    border-radius: 50%;
+    width: 24px;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
 
 .videos {
     background-color: #f9f9f9;
